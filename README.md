@@ -9,7 +9,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install monteca
 ```bash
 pip install montecarlo
 ```
-
+Import the three classes
 ```bash
 from montecarlo.montecarlo import Die, Game, Analyzer
 ```
