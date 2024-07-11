@@ -9,6 +9,10 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install monteca
 ```bash
 pip install montecarlo
 ```
+
+```bash
+from montecarlo.montecarlo import Die, Game, Analyzer
+```
 <u>Required packages</u>:
 *pandas
 *numpy
