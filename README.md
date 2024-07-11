@@ -14,8 +14,8 @@ Import the three classes
 from montecarlo.montecarlo import Die, Game, Analyzer
 ```
 <u>Required packages</u>:
--pandas
--numpy
++ pandas
++ numpy
 
 ## Usage
 
