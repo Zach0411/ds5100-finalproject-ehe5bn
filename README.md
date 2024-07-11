@@ -1,7 +1,6 @@
 # **Montecarlo Simulation- ds5100-finalproject-ehe5bn**
-  # Foobar
 
-Foobar is a Python library for dealing with word pluralization.
+Montecarlo is a Python Module for simulating dice being rolled along with being able to see descriptive statistics. Montecarlo contains three classes, *Die* (to create the Die objects), *Game* (to roll Die objects), and *Analyzer* (to view statistics of each game).
 
 ## Installation
 
@@ -10,29 +9,25 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install monteca
 ```bash
 pip install montecarlo
 ```
+<u>Required packages</u>:
+*pandas
+*numpy
 
 ## Usage
 
 ```python
-import foobar
+import montecarlo
 
-# returns 'words'
-foobar.pluralize('word')
+# create a 'die' object using numpy arrays
+Die1.Die(array1, array2)
 
-# returns 'geese'
-foobar.pluralize('goose')
+# specify weights of each 'face/side'
+Die1.change_weight(face, new_weight)
 
 # returns 'phenomenon'
 foobar.singularize('phenomena')
 ```
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)author: Zach Stautzenbach
+[MIT](https://choosealicense.com/licenses/mit/)
