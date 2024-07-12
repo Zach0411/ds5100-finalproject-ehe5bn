@@ -17,7 +17,12 @@ from montecarlo.montecarlo import Die, Game, Analyzer
 + pandas
 + numpy
 
-## Usage
+## Calling the Die Class
+```python
+
+```
+
+## Code
 
 ```python
 class Die():
