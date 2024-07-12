@@ -24,7 +24,7 @@ from montecarlo.montecarlo import Die, Game, Analyzer
 #Create a die object with an array of distinct values
 Die1 = np.array([1,2,3,4,5,6])
 
-Die_example = Die(array)
+Die_example = Die(Die1)
 
 #Change weights of a die
 Die_example.change_weight(2, 6)
