@@ -1,4 +1,5 @@
 # **Montecarlo Simulation- ds5100-finalproject-ehe5bn :**
+Created by: Zach Stautzenbach
 :game_die:	
 Montecarlo is a Python Module for simulating dice being rolled along with being able to see descriptive statistics. Montecarlo contains three classes, *Die* (to create the Die objects), *Game* (to roll Die objects), and *Analyzer* (to view statistics of each game). :game_die:
 
