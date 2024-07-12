@@ -50,7 +50,7 @@ Die_Analyze = Analyze(Die_game)
 Die_Analyze.permutation()
 ```
 
-## Code API with Docstrings
+## Code help (API)
 
 ```python
 class Die():
