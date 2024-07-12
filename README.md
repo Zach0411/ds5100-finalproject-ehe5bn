@@ -17,12 +17,39 @@ from montecarlo.montecarlo import Die, Game, Analyzer
 + pandas
 + numpy
 
-## Calling the Die Class
+## Die Class Demo
 ```python
+#Create a die object with array(s)
+Die1 = np.array([1,2,3,4,5,6])
 
+Die_example = Die(array)
+
+#Change weights of a die
+Die_example.change_weight(2, 6)
+#
+```
+## Game Class Demo
+```python
+#Create game object using list of Die Classes
+Die_game = Game(dice_list)
+
+#Roll dice three times
+Die_game.play_game(3)
+
+#Show results of the game
+Die_game.show_results()
 ```
 
-## Code
+## Analyzer Class Demo
+```python
+#instantiate an Analyzer object with a Game object
+Die_Analyze = Analyze(Die_game)
+
+#View different statistics such as permutations
+Die_Analyze.permutation()
+```
+
+## Code API with Docstrings
 
 ```python
 class Die():
