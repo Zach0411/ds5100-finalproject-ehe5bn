@@ -63,22 +63,6 @@ class Die():
         '''To initialize Die class, input required is a numpy array of strings or numbers. 
         Values in array must be distinct. This will save die attributes in a dataframe with weights defaulting to 1.
         '''
-        #make sure input was an array
-        if not isinstance(array, np.ndarray):
-            raise TypeError("Input must be a numpy array.")
-            
-        #make sure values are distinct
-        if len(array) != len(set(array)):
-            raise ValueError("Values in the array must be distinct.")
-            
-        #initialize faces
-        self.faces = array
-        
-        #weights of one for each face
-        self.weights = np.ones(len(array))
-        
-        #save to a dataframe
-        self.df_die = pd.DataFrame(array, index = self.weights)
         
     def change_weight(self, face, new_weight):
         '''Purpose: change weight of any face of the die object
